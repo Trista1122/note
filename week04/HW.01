@@ -1,1 +1,24 @@
-
+def quicksort(list):
+    s=[]
+    b=[]
+    hilist=[]
+    
+    if len(list)<=1:
+        return list
+    else:
+        h=list[0]
+        for i in list:
+            if i<h:
+                      s.append(i)
+            elif i>h:
+                      b.append(i)
+            else:
+                      hilist.append(i)
+        
+    s =quicksort(s)
+    b=quicksort(b)
+     
+    return s+hilist+b
+            
+            
+    print(quicksort([4,3,-1,6,54,33,-66]))        
