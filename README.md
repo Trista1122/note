@@ -5,8 +5,6 @@
 [pynb 版](https://github.com/Trista1122/note/blob/master/week04/HW.1%20quick%20sort.ipynb)
 
 [Quicksort版](https://github.com/Trista1122/note/blob/master/week04/HW01.md)
-# 關於我
-
 
 # 目錄
 week1
@@ -16,3 +14,4 @@ week4
 week5
 week6
 week7
+# 關於我
